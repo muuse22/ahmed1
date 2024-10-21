@@ -1,0 +1,86 @@
+/* Mainstyles.css */
+
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:  blue;
+    color: blue;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px;
+}
+
+/* Section and List Styling */
+section ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+section li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Footer Styling */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
